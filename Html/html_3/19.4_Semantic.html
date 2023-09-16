@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SEMANTIC</title>
+    <style>
+        label{
+            display: block;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <!--Progress element-->
+    <!--The progress element displays an indicator showing the completion progress of a task, 
+    typically displayed as a progress bar-->
+    <label for="file">File progress</label>
+    <progress id="file" max="100" value="70">70%</progress>
+    <hr>
+
+    <!--optgroup : The option group element-->
+    <!--The optgroup element represents a group of option elements with a common label.-->
+    <label for="anime-select">Choose your favorite anime character :</label>
+    <select name="anime-select" id="anime-select">
+        <optgroup label="Dragon-ball">
+            <option>Goku</option>
+            <option>Vegeta</option>
+            <option>Gohan</option>
+        </optgroup>
+        <optgroup label="Naruto">
+            <option>Naruto uzumaki</option>
+            <option>Sakuke uchiha</option>
+            <option>Kakashi hatake</option>
+        </optgroup>
+        <optgroup label="One-piece" disabled>
+            <option>Luffy</option>
+            <option>Zoro</option>
+            <option>Sanji</option>
+        </optgroup>
+    </select>
+    <hr>
+
+    <!--meter element-->
+    <!--The meter element represents either a scaler value within a known range or a fractional value.-->
+    <label for="Power-level">Power-level</label>
+    <meter id="Power-level" min="0" max="100" low="33" high="66" optimum="80" value="50">at 50/100</meter>
+    <hr>
+
+
+</body>
+</html>

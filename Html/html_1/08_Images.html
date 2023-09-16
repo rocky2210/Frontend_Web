@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Images</title>
+    <style>
+        body{
+            background-image: url('../img/landscape.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+    </style>
+</head>
+<body>
+    <!--Image tag-->
+    <h1>HTML Images</h1>
+    <img src="../img/art.jpg" alt="art" style="width: 300px;height: 200px;"><br>
+
+    <!--Float-->
+    <p>Using the css float property to let the image float to the right or to the left of a text.</p>
+    <img src="../img/bus.jpg" alt="bus" style="float: right;width:400px;height:300px;">
+
+    <!--Image maps-->
+    <p>The map tag is used to define an image map. An image map is an image with clickable areas.  The areas are defined with one or more area tags.</p>
+    <img src="../img/butterfly.jpg" alt="butterfly" usemap="#computer" style="height: 200px; width: 300px;">
+    <map name="computer">
+        <!--You must define the shape of the clickable area, and you can choose one of these value rect,circle,poly,default-->
+        <area shape="rect" coords="34,44,270,350" href="https://www.google.com" alt="computer">
+    </map>
+
+    <!--Html background images-->
+    <p>To add a background image on an html element, use the html style attribute and the css background-image property.</p>
+    <p style="background-image: url('../img/flower.jpg');height: 200px;width: 300px;">html background images</p>
+    <hr>
+</body> 
+</html>

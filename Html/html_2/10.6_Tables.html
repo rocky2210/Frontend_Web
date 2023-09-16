@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+    <style>
+        table{
+            border: 2px solid rgb(200, 200, 200);
+            border-collapse: collapse ;
+            letter-spacing: 1px;
+            font-family: sans-serif;
+            font-size: 0.8rem;
+        }
+        caption{
+            padding: 10px;
+            caption-side: bottom;
+        }
+        th,td{
+            border: 1px solid rgb(190, 190, 190);
+        }
+        td{
+            text-align: center;
+        }
+        thead,tfoot{
+            background-color: #3498db;
+            color: #fff;
+        }
+        tbody{
+            background-color: #e4f0f5;
+        }
+    </style>
+</head>
+<body>
+    <!--thead, tbody, tfoot-->
+    <table>
+        <caption>Council budget (in $) 2019</caption>
+        <!--The thead element defines a set of rows defining the head of the columns of the table.-->
+        <thead>
+            <tr>
+                <th scope="col">Items</th>
+                <th scope="col">Expenditure</th>
+            </tr>
+        </thead>
+        <!--The tbody element encapsulates a set of table rows, indicating that they comprise the body of the table.-->
+        <tbody>
+            <tr>
+                <th scope="row">Donuts</th>
+                <td>3,000</td>
+            </tr>
+            <th scope="row">Stationery</th>
+            <td>18,000</td>
+        </tbody> 
+        <!--The tfoot element defines a set of rows summarizing the columns of the table-->
+        <tfoot>
+            <tr>
+                <th scope="row">Totals</th>
+                <td>21,000</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>

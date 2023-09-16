@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>HTML Tables</title>
+    <style>
+        table, th, td{
+            border: 1px solid black;
+            /*To avoid having double borders use the css border-collapse property to collapse.*/
+            border-collapse: collapse;
+        }
+        th,td{
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <h2>Header for multiple columns</h2>
+    <table>
+        <tr>
+            <th colspan="2">Name</th>
+            <th>Age</th>
+        </tr>
+        <tr>
+            <td>Jill</td>
+            <td>Smith</td>
+            <td>30</td>
+        </tr>
+        <tr>
+            <td>Eve</td>
+            <td>jackson</td>
+            <td>36</td>
+        </tr>
+    </table>
+    <hr>
+
+    <!--Table Caption-->
+    <h2>Table Caption</h2>
+    <table style="width: 100%;">
+        <caption>Monthly savings</caption> <!--To add caption for table-->
+        <tr>
+            <th>Month</th>
+            <th>Savings</th>
+        </tr>
+        <tr>
+            <td>January</td>
+            <td>$100</td>
+        </tr>
+        <tr>
+        <td>February</td>
+        <td>$50</td>
+        </tr>
+    </table>
+</body>
+</html>

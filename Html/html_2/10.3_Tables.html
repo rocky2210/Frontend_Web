@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>HTML Tables</title>
+    <style>
+        table, th, td{
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+<body>
+    <!--Colspan-->
+    <h1>HTML TABLE COLSPAN</h1>
+    <table>
+        <tr>
+            <th colspan="2">Name</th>
+            <th>Age</th>
+        </tr>
+        <tr>
+            <td>Goku</td>
+            <td>son</td>
+            <td>43</td>
+        </tr>
+        <tr>
+            <td>Vegeta</td>
+            <td>Prince</td>
+            <td>40</td>
+        </tr>
+    </table>
+    <hr>
+
+    <!--Rowspan-->
+    <h1>HTML TABLE ROWSPAN</h1>
+    <table>
+        <tr>
+            <th>Name</th>
+            <td>Goku</td>
+        </tr>
+        <tr>
+            <th rowspan="2">Phone</th>
+            <td>123-456</td>
+        </tr>
+        <tr>
+            <td>654-321</td>
+        </tr>
+    </table>
+</body>
+</html>

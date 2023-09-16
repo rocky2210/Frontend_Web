@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CLASS</title>
+    <style>
+        body{
+            background-color: black;
+            color: white;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        /* Class for div */
+        .dragon-ball{
+            background-color: blue;
+            color: white;
+            border: 2px solid black;
+            margin: 20px;
+            padding: 20px;
+        }
+        /*Class for span*/
+        .black-clover{
+            font-size: 120%;
+            color: red;
+        }
+        /*Multiple classes*/
+        .mha{
+            background-color: greenyellow;
+            color: white;
+            padding: 10px;
+        }
+        .hero{
+            text-align:center;
+        }
+        /*Different Elements can share same class*/
+        .onepiece{
+            background-color: blueviolet;
+            color:white;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    
+    <!--Class Attribute-->
+    <h1>Class Attribute</h1>
+
+    <!--Using the class attribute in div-->
+    <div class="dragon-ball">
+        <h2>Goku</h2>
+        <p>I am super saiyan</p>
+    </div>
+    <div class="dragon-ball">
+        <h2>Vegeta</h2>
+        <p>I am saiyan prince</p>
+    </div>
+    <div class="dragon-ball">
+        <h2>Gohan</h2>
+        <p>I am saiyan hybrid</p>
+    </div>
+    <hr>
+
+    <!--Using the class attribute in span -->
+    <h2>Asta</h2>
+    <p>I will become <span class="black-clover">Wizard king</span></p><br>
+    <h2>Yuno</h2>
+    <p>I will become <span class="black-clover">Wizard king</span></p>
+    <hr>
+
+    <!--Multiple classes-->
+    <h2 class="mha hero">Deku</h2>
+    <h2 class="mha">Bakugo</h2>
+    <h2 class="mha">Shoto</h2>
+    <hr>
+
+    <!--Different Elements can share same class-->
+    <h2 class="onepiece">Monkey.D.Luffy</h2>
+    <p class="onepiece">I will become pirate king</p>
+    <hr>
+</body>
+</html>

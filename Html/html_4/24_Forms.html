@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Rocky">
+    <title>FORMS</title>
+    <style>
+        body{
+            background-color: #000000;
+            color:white;
+            font-family:'Cascadia Code';
+        }
+        hr{
+            height:1px;
+            background-color:#39A84F;
+        }
+        .c1{
+            color: #69C9D0;
+        }
+        .c2{
+            color:#EE1D52;
+        } 
+        .c3{
+            color:#FFC300;
+        }
+    </style>
+</head>
+<body>
+    <!--Form element-->
+    <form>
+        <label for="fname">First name: </label><br> <!--Label element-->
+        <input type="text" id="fname" name="fname"><br>
+        <label for="lname">last name: </label><br>
+        <input type="text" id="lname" name="lname">
+    </form>
+    <hr>
+
+    <!--Radio buttons-->
+    <h2>Radio buttons</h2>
+    <p>Example: Choose your favorite anime character</p>
+    <form>
+        <input type="radio" id="goku" name="fav_anime" value="GOKU">
+        <label for="goku">GOKU</label><br>        
+        <input type="radio" id="vegeta" name="fav_anime" value="vegeta">
+        <label for="vegeta">VEGETA</label><br>
+        <input type="radio" id="asta" name="fav_anime" value="ASTA">
+        <label for="asta">ASTA</label><br>
+    </form>
+    <hr>
+
+    <!--Check boxes-->
+    <h2>Check boxes</h2>
+    <form>
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+        <label for="vehicle1">I like bikes</label><br>
+        <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+        <label for="vehicle2">I like cars</label><br>
+    </form>
+    <hr>
+
+    <!--Submit button-->
+    <h2>Submit Button</h2>
+    <form action="22_emojis.html">
+        <label for="fname">First name</label><br>
+        <input type="text" id="fname1" value="Rocky"><br>
+
+        <label for="lname2">Last name</label><br>
+        <input type="text" id="lname2" value="rocky">
+        
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Rocky">
+    <title>FORMS</title>
+    <style>
+        body{
+            background-color: #000000;
+            color:white;
+            font-family:'Cascadia Code';
+        }
+        hr{
+            height:1px;
+            background-color:#39A84F;
+        }
+        .c1{
+            color: #69C9D0;
+        }
+        .c2{
+            color:#EE1D52;
+        } 
+        .c3{
+            color:#FFC300;
+        }
+        .c4{
+            color:#8A3AB9;
+        }
+        .c5{
+            color:#0077B5;
+        }
+        .c6{
+            color:#00C957;
+        }
+        .c7{
+            color:#FF00FF;
+        }
+    </style>
+</head>
+<body>
+    <!--The form attribute and form action attribute-->
+    <h2 class="c1">The form attribute and form action attribute</h2>
+
+    <form action="21_Symbols.html" novalidate>
+        <label for="fname">First name: </label>
+        <input type="text" id="fname" name="fname"><br><br>
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="lname"><br><br>
+        <input type="submit" value="Submit"><br><br>
+        <input type="submit" formaction="21_Symbols.html" value="Submit  (formaction)"><br><br>
+        <!--The formenctype attribute-->
+        <input type="submit" formenctype="multipart/form-data" value="Submit as Multipart/form-data"><br><br>
+        <!--The formtarget attribute-->
+        <input type="submit" formtarget="_blank" value="Submit to a new window/tab"><br><br>
+        <!--The formnovalidate attribute-->
+        <input type="submit" formnovalidate="formnovalidate" value="Submit without validation"><br><br>
+    </form>
+</body>
+</html>

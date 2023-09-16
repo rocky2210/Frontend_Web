@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Rocky">
+    <title>FORMS</title>
+    <style>
+        body{
+            background-color: #000000;
+            color:white;
+            font-family:'Cascadia Code';
+        }
+        hr{
+            height:1px;
+            background-color:#39A84F;
+        }
+        .c1{
+            color: #69C9D0;
+        }
+        .c2{
+            color:#EE1D52;
+        } 
+        .c3{
+            color:#FFC300;
+        }
+        .c4{
+            color:#8A3AB9;
+        }
+        .c5{
+            color:#0077B5;
+        }
+        .c6{
+            color:#00C957;
+        }
+        .c7{
+            color:#FF00FF;
+        }
+    </style>
+</head>
+<body>
+    <!--Action attribute-->
+    <h2 class="c1">Action Attribute</h2>
+    <p class="c3">The action attribute defines the action to be performed when the form is submitted. </p>
+    <form action="22_emojis.html"><!--Action-->
+        <label for="fname1">First name</label><br>
+        <input type="text" id="fname1" value="Rocky"><br>
+
+        <label for="lname1">Last name</label><br>
+        <input type="text" id="lname1" value="rocky"><br>
+
+        <input type="submit" value="submit">
+    </form>
+    <hr>
+
+    <!--Target attribute-->
+    <h2 class="c2">Target Attribute</h2>
+    <p class="c3">The target attribute specifies where to display the response that is received after submitting the form.</p>
+    <form action="22_emojis.html" target="_blank"><!--Target-->
+        <label for="fname2">First name</label><br>
+        <input type="text" id="fname2" value="Rocky"><br>
+
+        <label for="lname2">Last name</label><br>
+        <input type="text" id="lname2" value="rocky"><br>
+
+        <input type="submit" value="submit">
+    </form>
+    <hr>
+
+    <!--Method attribute-->
+    <h2 class="c4">Method Attribute</h2>
+    <p class="c3">The method attribute specifies the HTTP method to be used when submitting the form data.</p>
+    <form action="22_emojis.html" method="post"><!--get or post-->
+        <label for="fname3">First name</label><br>
+        <input type="text" id="fname3" value="Rocky"><br>
+
+        <label for="lname3">Last name</label><br>
+        <input type="text" id="lname3" value="rocky"><br>
+
+        <input type="submit" value="submit">
+    </form>
+    <p class="c5"><b><i>Note: </i></b>Always use <b class="c6">post</b> if the form data contains sensitive or personal information!</p>
+    <hr>
+
+    <!--Autocomplete attribute-->
+    <h2 class="c7">Autocomplete attribute</h2>
+    <p class="c3">The autocomplete attribute specifies whether a form should have autocomplete on or off.</p>
+    <form action="22_emojis.html" autocomplete="off"><!--On or off-->
+        <label for="fname4">First name</label><br>
+        <input type="text" id="fname4" value="Rocky"><br>
+
+        <label for="lname4">Last name</label><br>
+        <input type="text" id="lname4" value="rocky"><br>
+
+        <input type="submit" value="submit">
+    </form>
+    <hr>
+
+    <!--Novalidate attribute-->
+    <h2 class="c6">Novalidate attribute</h2>
+    <p class="c3">The novalidate attribute is a boolean attribute.</p>
+    <form action="22_emojis.html" novalidate><!--novalidate-->
+        <label for="fname5">First name</label><br>
+        <input type="text" id="fname5" value="Rocky"><br>
+
+        <label for="lname5">Last name</label><br>
+        <input type="text" id="lname5" value="rocky"><br>
+
+        <input type="submit" value="submit">
+    </form>
+    <hr>
+</body>
+</html>

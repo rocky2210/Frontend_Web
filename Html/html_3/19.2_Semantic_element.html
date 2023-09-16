@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Rocky">
+    <title>SEMANTIC ELEMENTS</title>
+    <style>
+        body{
+            background-color: #000000;
+            color:white;
+            font-family:'Cascadia Code';
+        }
+        hr{
+            height:1px;
+            background-color:#39A84F;
+        }
+        .c1{
+            color: #69C9D0;
+        }
+        .c2{
+            color:#EE1D52;
+        }
+        .c3{
+            color:#FFC300;
+        }
+        /*styling aside with css*/
+        aside{
+            width: 30%;
+            padding-left: 15px;
+            margin-left: 15px;
+            float: right;
+            font-style: italic;
+            background-color: blueviolet;
+        }
+        /*styling main*/
+        main{
+            margin: 0;
+            padding: 8px;
+            background-color: rgb(64,163,44);
+        }
+        main > h1, p, .anime{
+            margin: 10px;
+            padding: 5px;
+        }
+        .anime{
+            background: #EE1D52;
+        }
+        .anime > h2, p{
+            margin: 4px;
+            font-size: 90%;
+        }
+        </style>
+</head>
+<body>
+    <!--Aside element-->
+    <h2 class="c2">Aside element</h2>
+    <p>My family and I visited The Epcot center this summer. The weather was nice, and Epcot was amazing! I had a great summer together with my family!</p>
+
+    <aside>
+        <h2>Aside element example</h2>
+        <h4>Epcot Center</h4>
+        <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+        <br>
+    </aside>
+    <br><hr>
+
+    <!--Figure and figcaption elements-->
+    <h2 class="c1">Figure and figcaption elements</h2>
+    <figure>
+        <img src="../img/person.jpg" alt="person" style="width: 300px;">
+        <figcaption>fig:1 - girl , computer, illustration</figcaption>
+    </figure>
+    <hr>
+
+    <!--Details and summary-->
+    <h2 class="c3">Details and summary</h2>
+    <!--Details element creates a disclosure widget in widget in which information is visible only when the widget
+    is toggled into an "open" state.-->
+    <details open> <!--default : closed -->
+        <!--The summary element specifies a summary, caption or legend for a detail element's disclosure box.-->
+        <summary>Overview</summary>
+        <ol>
+            <li>Cash on hand: $500.00</li>
+            <li>Current invoice: $75.00</li>
+            <li>Due date: 6/5/19</li>
+        </ol>
+    </details>
+    <hr>
+
+    <!--Main element-->
+    <h2 class="c1">Main element</h2>
+        <main>
+            <h2> Most Popular Anime</h2>
+            <p>Dragon ball, One piece, Naruto</p>
+            <article class="anime">
+                <h2>Dragon ball</h2>
+                <p>it follows the adventures of Goku, a Saiyan warrior, as he trains and fights to protect Earth from various villains and powerful enemies</p>
+            </article>
+    
+            <article class="anime">
+                <h2>One piece</h2>
+                <p>It tells the story of Monkey D. Luffy, a young pirate with a rubber-like body who sets out on a journey to find the legendary treasure known as One Piece and become the Pirate King</p>
+            </article>
+    
+            <article class="anime">
+                <h2>Naruto</h2>
+                <p>It tells the story of Naruto Uzumaki, a young ninja with a dream of becoming the strongest ninja in his village and ultimately the Hokage, the leader of the village.</p>
+            </article>
+        </main>
+        <hr>
+</body>
+</html>

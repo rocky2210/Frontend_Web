@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Rocky">
+    <title>SEMANTIC ELEMENTS</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        hr {
+            height: 1px;
+            background-color: aquamarine;
+        }
+
+        .c1 {
+            color: #69c9d0;
+        }
+
+        .c2 {
+            color: #ee1d52;
+        }
+
+        /*styling article element*/
+        .all-browsers {
+            margin: 0px;
+            background-color: lightblue;
+            color: black;
+            padding: 5px;
+        }
+
+        .all-browsers>h1 {
+            margin: 10px;
+            padding: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <!--Semantic elements in html-->
+    <!-- <article>, <aside>, <details>, <figcaption>, <figure>, <footer>, <header>, <main>, <mark>, <nav>, <section>, <summary>, <time>-->
+
+    <!--Section element-->
+    <h2 class="c1">SECTION ELEMENT</h2>
+    <section>
+        <h1>WWF</h1>
+        <p>The World Wide Fund for Nature (WWF) is an international organization working on issues regarding the
+            conservation, research and restoration of the environment, formerly named the World Wildlife Fund. WWF was
+            founded in 1961.</p>
+    </section>
+    <section>
+        <h1>WWF's Panda symbol</h1>
+        <p>The Panda has become the symbol of WWF. The well-known panda logo of WWF originated from a panda named Chi
+            Chi that was transferred from the Beijing Zoo to the London Zoo in the same year of the establishment of
+            WWF.</p>
+    </section>
+    <hr>
+
+    <!--Article element-->
+    <h2 class="c2">ARTICLE ELEMENT</h2>
+    <article class="all-browsers">
+        <h2>Google Chrome</h2>
+        <p>Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web
+            browser today!</p>
+    </article>
+
+    <article>
+        <h2>Mozilla Firefox</h2>
+        <p>Mozilla Firefox is an open-source web browser developed by Mozilla. Firefox has been the second most popular
+            web browser since January, 2018.</p>
+    </article>
+    <hr>
+
+    <!--Nesting article in section-->
+    <h2 class="c1">Nesting 'article' in 'section'</h2>
+    <section>
+        <h2>Dragon Ball Z</h2>
+        <article>
+            <h3>Goku</h3>
+            <p>Goku is the main protagonist of the Dragon Ball series. He is a Saiyan warrior and the strongest fighter on Earth.</p>
+        </article>
+        <article>
+            <h3>Vegeta</h3>
+            <p>Vegeta is a rival-turned-ally of Goku. He is also a Saiyan and constantly seeks to surpass Goku's strength.</p>
+        </article>
+    </section>
+    <hr>
+
+    <!--Nesting 'section' in 'article'-->
+    <h2 class="c2">Nesting 'section' in 'article'</h2>
+    <article>
+        <h2>Goku</h2>
+        <p>Goku is the main protagonist of the Dragon Ball series. He is a Saiyan warrior and the strongest fighter on Earth.</p>
+        <section>
+            <h3>Transformations</h3>
+            <p>Goku has various powerful transformations, such as Super Saiyan, Super Saiyan God, and Ultra Instinct.</p>
+        </section>
+        <section>
+            <h3>Allies</h3>
+            <p>Goku has a strong bond with his friends, including Krillin, Piccolo, and Gohan, who often assist him in battles.</p>
+        </section>
+        </article> 
+</body>
+
+</html>

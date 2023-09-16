@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>HTML TABLES</title>
+    <style>
+        table{
+            border-collapse:collapse;
+            width: 100%;
+        }
+        th,td{
+            text-align: left;
+            padding: 8px;
+        }
+        
+        /*Zebra stripes*/
+        /*
+        tr:nth-child(even){
+            background-color: #d6eeee;
+        }
+        */
+        
+        /*Vertical zebra stripes*/
+        /*
+        th:nth-child(even){
+            background-color: gold;
+        }
+        */
+
+        /*Vertical horizontal zebra stripes*/
+        tr:nth-child(even){
+            background-color: rgba(150,212,212,0.4);
+        }
+        th:nth-child(even),td:nth-child(even){
+            background-color: rgba(150,212,212,0.4);
+        }
+
+        /*Horizontal dividers*/
+        tr{
+            border-bottom: 1px solid black;
+        }
+
+        /*Hoverable table*/
+        tr:hover{
+            background-color: blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <h1>ZEBRA STRIPED TABLE</h1>
+    <table>
+        <tr>
+            <th>Firstname</th>
+            <th>Lastname</th>
+            <th>Points</th>
+        </tr>
+        <tr>
+            <td>Goku</td>
+            <td>Son</td>
+            <td>9000</td>
+        </tr>        
+        <tr>
+            <td>Vegeta</td>
+            <td>Prince</td>
+            <td>8500</td>
+        </tr>
+        <tr>
+            <td>Gohan</td>
+            <td>Son</td>
+            <td>8000</td>
+        </tr>
+        <tr>
+            <td>Gotan</td>
+            <td>son</td>
+            <td>3500</td>
+        </tr>
+        <tr>
+            <td>Trunks</td>
+            <td>prince</td>
+            <td>4500</td>
+        </tr>
+    </table>
+</body>
+</html>
