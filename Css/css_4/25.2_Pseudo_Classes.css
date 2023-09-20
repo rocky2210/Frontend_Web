@@ -1,0 +1,156 @@
+body{
+    background-color: #222222;
+    color: #ffffff;
+    padding: 20px;
+}
+
+h2{
+    margin-bottom:20px;
+    font-size: 24px;
+}
+h3{
+    margin-top: 40px;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+hr{
+    border-color: #444444;
+    margin: 40px 0;
+}
+
+/*:active*/
+.active-link:active{
+    color: #ff3355;
+}
+/*:checked*/
+.checked-input:checked{
+    background-color: 0.5;
+}
+/*:disabled*/
+.disabled-input:disabled{
+    opacity: 0.5;
+}
+/*:empty*/
+.empty-paragraph:empty{
+    background-color: #444444;
+}
+/*:enabled*/
+.enabled-input:enabled{
+    border: 2px solid #22cc88;
+}
+/*:first-child*/
+.first-child-paragraph:first-child{
+    color:red;
+}
+/*:first-of-type*/
+.first-of-type-paragraph:first-of-type {
+    font-weight: bold;
+}
+/* :focus */
+.focused-input:focus {
+    outline: 2px solid #FFAA33;
+}
+/* :hover */
+.hovered-link:hover {
+    text-decoration: underline;
+}
+/* :in-range */
+.in-range-input:in-range {
+    background-color: #333333;
+}
+/* :invalid */
+.invalid-input:invalid {
+    border: 2px solid #FF3333;
+}
+/* :lang */
+.italian-paragraph:lang(it) {
+    font-style: italic;
+}
+/* :last-child */
+.last-child-paragraph:last-child {
+    color: #AA33FF;
+}
+/* :last-of-type */
+.last-of-type-paragraph:last-of-type {
+    font-size: 20px;
+}
+/* :link */
+.unvisited-link:link {
+    color: #2255DD;
+}
+/* :not */
+.not-paragraph:not(p) {
+    background-color: #444444;
+}
+/* :nth-child */
+.second-child-paragraph:nth-child(2) {
+    color: #FFAA33;
+}
+/* :nth-last-child */
+.second-last-child-paragraph:nth-last-child(2) {
+    color: #FF3355;
+}
+/* :nth-last-of-type */
+.second-last-of-type-paragraph:nth-last-of-type(2) {
+    color: #22CC88;
+}
+
+/* :nth-of-type */
+.second-of-type-paragraph:nth-of-type(2) {
+    color: #AA33FF;
+}
+
+/* :only-of-type */
+.only-of-type-paragraph:only-of-type {
+    font-size: 18px;
+}
+
+/* :only-child */
+.only-child-paragraph:only-child {
+    border: 2px dashed #FFFFFF;
+}
+
+/* :optional */
+.optional-input:optional {
+    color: #999999;
+}
+
+/* :out-of-range */
+.out-of-range-input:out-of-range {
+    background-color: #FF3355;
+}
+
+/* :read-only */
+.read-only-input:read-only {
+    background-color: #333333;
+}
+
+/* :read-write */
+.read-write-input:read-write {
+    background-color: #22CC88;
+}
+
+/* :required */
+.required-input:required {
+    border: 2px solid #FF3355;
+}
+
+/* :root */
+#root-element {
+    font-weight: bold;
+}
+
+/* :target */
+#news:target {
+    font-weight: bold;
+}
+
+/* :valid */
+.valid-input:valid {
+    border: 2px solid #22CC88;
+}
+
+/* :visited */
+.visited-link:visited {
+    color: #AA33FF;
+}

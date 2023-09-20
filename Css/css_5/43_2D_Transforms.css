@@ -1,0 +1,62 @@
+.translate{
+    width: 300px;
+    height: 100px;
+    background-color: yellow;
+    border: 1px solid black;
+    transform: translate(50px,100px);
+    color: black;
+}
+
+/* rotate */
+div{
+    width: 300px;
+    height: 100px;
+    background-color: yellow;
+    border: 1px solid black;
+    color: black;
+}
+div#myDivrotate{
+    transform: rotate(20deg);
+}
+
+/* scale */
+div.scale{
+    margin: 150px;
+    width: 200px;
+    height: 100px;
+    background-color: yellow;
+    border: 1px solid black;
+    transform: scale(2,3);
+}
+
+/* scalex */
+div.scalex{
+    margin: 150px;
+    width: 200px;
+    height: 100px;
+    background-color: yellow;
+    border: 1px solid black;
+    transform: scaleX(0.5);
+}
+div.scaley{
+    margin: 150px;
+    width: 200px;
+    height: 100px;
+    background-color: yellow;
+    border: 1px solid black;
+    transform: scaleY(3);
+}
+
+/* skew x */
+div#myDivskew {
+    transform: skewX(20deg);
+}
+
+/* matrix */
+
+div#myDiv1 {
+    transform: matrix(1, -0.3, 0, 1, 0, 0);
+}
+div#myDiv2 {
+    transform: matrix(1, 0, 0.5, 1, 150, 0);
+}

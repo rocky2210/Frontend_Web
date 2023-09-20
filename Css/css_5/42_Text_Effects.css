@@ -1,0 +1,44 @@
+p.test1 {
+    white-space: nowrap; 
+    width: 200px; 
+    border: 1px solid #000000;
+    overflow: hidden;
+    text-overflow: clip;
+}
+p.test2 {
+    white-space: nowrap; 
+    width: 200px; 
+    border: 1px solid #000000;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* word wrap */
+p.test {
+    width: 11em; 
+    border: 1px solid #000000;
+    word-wrap: break-word;
+}
+
+/* word break */
+p.test3 {
+    width: 140px; 
+    border: 1px solid #000000;
+    word-break: keep-all;
+}
+p.test4 {
+    width: 140px; 
+    border: 1px solid #000000;
+    word-break: break-all;
+}
+
+/* writing mode */
+p.test5 {
+    writing-mode: horizontal-tb; 
+}
+span.test6 {
+    writing-mode: vertical-rl; 
+}
+p.test6 {
+    writing-mode: vertical-rl; 
+}

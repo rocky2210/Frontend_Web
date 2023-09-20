@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Learning HTML & CSS">
+    <meta name="keywords" content="HTML, CSS">
+    <meta name="author" content="Rocky">
+    <title>INLINE BLOCK</title>
+    <!--    default stylesheet   -->
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="22_Inline_Block.css">
+</head>
+<body>
+    <h2>The display:inline-block value</h2>
+    <pre>Compared to display: inline, the major difference is that display: inline-block allows to set a width and height on the element.
+
+        Also, with display: inline-block, the top and bottom margins/paddings are respected, but with display: inline they are not.
+        
+        Compared to display: block, the major difference is that display: inline-block does not add a line-break after the element, so the element can sit next to other elements.</pre>
+        <hr>
+        
+        <h1>The display Property</h1>
+
+        <h2>display: inline</h2>
+        <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum consequat scelerisque elit sit amet consequat. Aliquam erat volutpat. <span class="a">Aliquam</span> <span class="a">venenatis</span> gravida nisl sit amet facilisis. Nullam cursus fermentum velit sed laoreet. </div>
+        
+        <h2>display: inline-block</h2>
+        <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum consequat scelerisque elit sit amet consequat. Aliquam erat volutpat. <span class="b">Aliquam</span> <span class="b">venenatis</span> gravida nisl sit amet facilisis. Nullam cursus fermentum velit sed laoreet. </div>
+        
+        <h2>display: block</h2>
+        <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum consequat scelerisque elit sit amet consequat. Aliquam erat volutpat. <span class="c">Aliquam</span> <span class="c">venenatis</span> gravida nisl sit amet facilisis. Nullam cursus fermentum velit sed laoreet. </div>
+        <hr>
+
+        <!--horizontak navigation links-->
+        <h1>Horizontal Navigation Links</h1>
+        <p>By default, list items are displayed vertically. In this example we use display: inline-block to display them horizontally (side by side).</p>
+        <p>Note: If you resize the browser window, the links will automatically break when it becomes too crowded.</p>
+
+        <ul class="nav">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#clients">Our Clients</a></li>  
+        <li><a href="#contact">Contact Us</a></li>
+        </ul>
+</body>
+</html>

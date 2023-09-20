@@ -1,0 +1,40 @@
+/*
+    CSS Tables
+*/
+.th1, th, td{
+    border: 1px solid red;
+}
+/*
+    Full-width table
+*/
+.th2, th, td{
+    border: 1px solid;
+}
+.th2{
+    width: 100%;
+}
+
+/*
+    Border collapse property
+*/
+.collapse , th, td{
+    border: 1px solid;
+}
+.collapse{
+    width: 100%;
+    border-collapse:collapse;
+}
+
+/*
+    Css table size
+*/
+.size, th, td{
+    border: 1px solid;
+}
+.size{
+    border-collapse: collapse;
+    width: 200%;
+}
+.size th{
+    height: 70px;
+}

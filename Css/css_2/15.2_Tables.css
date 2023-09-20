@@ -1,0 +1,60 @@
+/*
+    CSS responsive table
+*/
+#th1 ,
+#th1 th,
+#th1 td{
+    border: 1px solid;
+    padding: 10px;
+}
+#th1{
+    border-collapse: collapse;
+    width: 100%;
+}
+#th1 tr:nth-child(even){
+    background-color: grey;
+}
+
+/*
+    Example 1
+*/
+#customers{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+#customers th,
+#customers td{
+    border: 1px solid;
+    padding: 8px;
+}
+#customers tr:nth-child(even){
+    background-color: grey;
+}
+#customers tr:hover{
+    background-color: coral;
+}
+#customers th{
+    text-align: left;
+    background-color: #04aa6d;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    color: white;
+}
+/*set the position of the table caption*/
+#exam2 th,
+#exam2 td{
+    border: 1px solid;
+    padding: 8px;
+}
+caption{ /*caption side*/
+    caption-side: bottom;
+}
+
+/* empty cell*/
+#myDIV {
+    height:300px;
+}
+#myTable { 
+    empty-cells: hide;
+}

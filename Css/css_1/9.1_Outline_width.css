@@ -1,0 +1,36 @@
+/*
+    Css outline with color property
+*/
+
+.out1{
+    border: 1px solid yellow;
+    outline-style: solid;
+    outline-color: #ff0000;
+    outline-width: thin;
+}
+.out4{
+    border: 1px solid yellow;
+    outline-style: solid;
+    outline-color: #ff0000;
+    outline-width: medium;
+}
+.out3{
+    border: 1px solid yellow;
+    outline-style: solid;
+    outline-color: #ff0000;
+    outline-width: thick;
+}
+.out4{
+    border: 1px solid yellow;
+    outline-style: solid;
+    outline-color: #ff0000;
+    outline-width: 4px;
+}
+
+/*Css outline shorthand property*/
+.shrt1{
+    outline: 5px dashed yellow;
+}
+.shrt2{
+    outline: 5px dotted pink;
+}

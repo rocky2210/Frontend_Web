@@ -1,0 +1,23 @@
+/*
+    Css combinators
+*/
+
+/*Descendant combinator*/
+div p{
+    background-color: palevioletred;
+}
+/*Child combinator*/
+div > span{
+    font-weight: bold;
+    background-color: cadetblue;
+}
+
+/*Adjacent sibling combinator*/
+h2 + p{
+    background-color: purple;
+}
+
+/*General sibling combinator*/
+h2 ~ p{
+    text-decoration: underline;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Learning HTML & CSS">
+    <meta name="keywords" content="HTML, CSS">
+    <meta name="author" content="Rocky">
+    <title>Z-INDEX</title>
+    <!--    default stylesheet   -->
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="19_Z-index.css">
+</head>
+<body>
+    <!--Z-index-->
+    <h1>Z-index</h1>
+    <hr>
+    <p>The z-index property specifies the stack order of an element.</p>
+    <p>When elements are positioned, they can overlap other elements.</p>
+    <hr>
+
+    <!--Z-index property-->
+    <h2>This is a heading</h2>
+    <img src="../img/img_tree.png" alt="tree">
+    <p>Because the image has a z-index of -1 , it will be placed behind the text</p>
+    <hr>
+    <br>
+
+    <!--Z-index example-->
+    <p>An element with greater stack order is always above an element with a lower stack order.</p>
+        <div class="container">
+    <div class="black-box">Black box (z-index: 1)</div>
+    <div class="gold-box">Gold box (z-index: 3)</div>
+    <div class="green-box">Green box (z-index: 2)</div>
+    </div>
+    <hr><br>
+
+    <!--example 2-->
+    <h2>Example 2 without using z-index</h2>
+    <p>Overlapping elements</p>
+    <p>If two positioned elements overlap each other without a z-index specified,
+        the element defined last in the html code will be shown on top:</p>
+        <div class="container">
+        <div class="black-box1">Black box</div>
+        <div class="gray-box1">Gray box</div>
+        <div class="green-box1">Green box</div>
+        </div>
+    <hr>
+</body>
+</html>

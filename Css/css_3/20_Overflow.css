@@ -1,0 +1,57 @@
+/*
+    Overflow
+*/
+.visible{
+    background-color: coral;
+    width: 200px;
+    height: 65px;
+    border: 1px solid;
+    overflow: visible;
+}
+.hidden{
+    background-color: coral;
+    width: 200px;
+    height: 65px;
+    border: 1px solid;
+    overflow: hidden;
+}
+.scroll{
+    background-color: coral;
+    width: 200px;
+    height: 65px;
+    border: 1px solid;
+    overflow:scroll;
+}
+.auto{
+    background-color: coral;
+    width: 200px;
+    height: 65px;
+    border: 1px solid;
+    overflow: auto;
+}
+.overflow{
+    background-color: coral;
+    width: 200px;
+    height: 65px;
+    border: 1px solid;
+    overflow-x: hidden; /*hide horizontal scrollbar*/
+    overflow-y: scroll; /*add vertical scrollbar*/
+}
+.a{
+    width: 150px;
+    border: 1px solid;
+    background-color: coral;
+    overflow-wrap: normal;
+}
+.b{
+    width: 150px;
+    border: 1px solid;
+    background-color: coral;
+    overflow-wrap: break-word;
+}
+.c{
+    width: 150px;
+    border: 1px solid;
+    background-color: coral;
+    overflow-wrap: anywhere;
+}

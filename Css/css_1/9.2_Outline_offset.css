@@ -1,0 +1,9 @@
+/*
+    Css outline offset property
+*/
+p.offst{
+    margin: 30px;
+    border: 1px solid blueviolet;
+    outline: 1px solid red;
+    outline-offset: 15px;
+}

@@ -1,0 +1,25 @@
+/*
+    Colors
+*/
+
+/*RGB and RGBA values*/
+.rgbc{
+    background-color: rgb(255,99,71);
+}
+.rgbac{
+    background-color:rgba(255, 99, 71,0.5);
+}
+
+/*hex values*/
+.hexc{
+    background-color: #ff6347;
+}
+
+/*hsl value*/
+.hslc{
+    background-color: hsl(9,100%,64%);
+}
+/*hsla values*/
+.hslac{
+    background-color: hsla(9,100%,64%,0.5);
+}

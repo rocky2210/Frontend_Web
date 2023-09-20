@@ -1,0 +1,25 @@
+.pagination {
+    display: inline-block;
+  }
+  
+  .pagination a {
+    color: #fff;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+
+/* breadcrumb */
+ul.breadcrumb {
+    padding: 8px 16px;
+    list-style: none;
+    background: blue;
+  }
+  
+  ul.breadcrumb li {display: inline;}
+  
+  ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: "/\00a0";
+  }

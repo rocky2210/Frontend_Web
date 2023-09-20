@@ -1,0 +1,88 @@
+#example1 {
+    background: url(../img/img_flr.gif) right bottom no-repeat, url(../img/paper.gif) left top repeat;
+    padding: 15px;
+    color: black;
+}
+
+#example2{
+    border: 1px solid black;
+    background: url(../img/img_flr.gif);
+    background-size: 100px 80px;
+    background-repeat: no-repeat;
+    padding: 15px;
+}
+
+/* background size */
+.div1 {
+    border: 1px solid black;
+    height: 120px;
+    width: 150px;
+    background: url(../img/img_flr.gif);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.div2 {
+    border: 1px solid black;
+    height: 120px;
+    width: 150px;
+    background: url(../img/img_flr.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.div3 {
+    border: 1px solid black;
+    height: 120px;
+    width: 150px;
+    background: url(../img/img_flr.gif);
+    background-repeat: no-repeat;
+}
+
+/* define background */
+#example3{
+    background: url(../img/img_tree.png) left top no-repeat, url(../img/img_flr.gif) right bottom no-repeat,url(../img/paper.gif) left top repeat;
+    padding: 15px;
+    background-size: 50px,130px,auto;
+}
+
+
+/* background-orgin property */
+#example4 {
+    border: 10px solid black;
+    padding: 35px;
+    background: url(../img/img_flr.gif);
+    background-repeat: no-repeat;
+}
+#example5 {
+    border: 10px solid black;
+    padding: 35px;
+    background: url(../img/img_flr.gif);
+    background-repeat: no-repeat;
+    background-origin: border-box;
+}
+#example6 {
+    border: 10px solid black;
+    padding: 35px;
+    background: url(../img/img_flr.gif);
+    background-repeat: no-repeat;
+    background-origin: content-box;
+}
+
+
+/* background clip */
+#example7 {
+    border: 10px dotted black;
+    padding: 35px;
+    background: yellow;
+}
+#example8 {
+    border: 10px dotted black;
+    padding: 35px;
+    background: yellow;
+    background-clip: padding-box;
+}
+#example9 {
+    border: 10px dotted black;
+    padding: 35px;
+    background: yellow;
+    background-clip: content-box;
+}

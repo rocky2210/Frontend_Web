@@ -1,0 +1,39 @@
+/*
+    pseudo classes
+*/
+
+/*::before pesudo element*/
+.box::before{
+    content: "Before";
+    background-color: brown;
+}
+
+/* ::after pesudo element*/
+.box::after{
+    content: "After";
+    background-color: orange;
+}
+
+/* ::first-line pseudo element*/
+p::first-letter{
+    color: red;
+    font-weight: bold;
+}
+
+/* ::first-letter pseudo element*/
+p::first-letter{
+    font-size: 24px;
+    color: blue;
+}
+
+/*::selection pseudo element*/
+::selection{
+    color: white;
+    background-color: blue;
+}
+
+/* ::marker pseudo element*/
+li::marker{
+    color: green;
+    font-weight: bold;
+}

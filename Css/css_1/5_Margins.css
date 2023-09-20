@@ -1,0 +1,33 @@
+/*
+    Margins
+*/
+
+p.mar4{
+    /*top right bottom left*/
+    border: 1px solid red;
+    margin: 25px 50px 20px 100px;
+    background-color: gray;
+}
+p.mar3{
+    border: 1px solid red;
+    margin: 25px 50px 75px;
+    background-color: gray;
+}
+p.mar2{
+    border: 1px solid red;
+    margin: 25px 50px;
+    background-color: gray;
+}
+p.mar1{
+    border: 1px solid red;
+    margin: 25px;
+    background-color: gray;
+}
+div{
+    width: 300px;
+    margin: auto;
+    border: 1px solid red;
+}
+.inher{
+    margin-left: inherit;
+}

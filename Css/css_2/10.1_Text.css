@@ -1,0 +1,109 @@
+/*
+Css text decoration line properties
+*/
+.one{
+    text-decoration-line: overline;
+}
+.two{
+    text-decoration-line: line-through;
+}
+.three{
+    text-decoration-line: underline;
+}
+.four{
+    text-decoration-line: overline underline;
+}
+
+/*
+    Css text decoration color properties
+*/
+.five{
+    text-decoration: overline;
+    text-decoration-color: red;
+}
+.six{
+    text-decoration-line: line-through;
+    text-decoration-color: aqua;
+}
+.seven{
+    text-decoration-line: underline;
+    text-decoration-color: chartreuse;
+}
+.eight{
+    text-decoration-line: overline underline;
+    text-decoration-color: purple;
+}
+
+/*
+    Css text decoration style properties
+*/
+.li1{
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+}
+.li2{
+    text-decoration-line: underline;
+    text-decoration-style: double;
+}
+.li3{
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
+}
+.li4{
+    text-decoration-line: underline;
+    text-decoration-style: dashed;
+}
+.li5{
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+}
+.li6{
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: aqua;
+}
+
+/*
+    Css text decoration thickness properties
+*/
+.thi1{
+    text-decoration-line: underline;
+    text-decoration-thickness: auto;
+}
+.thi2{
+    text-decoration-line: underline;
+    text-decoration-thickness: 5px;
+}
+.thi3{
+    text-decoration-line: underline;
+    text-decoration-thickness: 25%;
+}
+.thi4{
+    text-decoration-line: underline;
+    text-decoration-color: red;
+    text-decoration-style: double;
+    text-decoration-thickness: 5px;
+}
+
+/*
+    text decoration shorthand properties
+*/
+.shrt1{
+    text-decoration: underline;
+}
+.shrt2{
+    text-decoration: underline red;
+}
+.shrt3{
+    text-decoration: underline red double;
+}
+.shrt4{
+    text-decoration: underline red double 5px;
+}
+
+/*
+    text decoration none properties
+*/
+a{
+    text-decoration: none;
+}

@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Learning HTML & CSS">
+    <meta name="keywords" content="HTML, CSS">
+    <meta name="author" content="Rocky">
+    <title>CSS LISTS</title>
+    <!--    default stylesheet   -->
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="14_Lists.css">
+</head>
+<body>
+    <!--Lists-->
+    <h1>Different List Item Markers</h1>
+    <p>The list-style-type property specifies the type of list item marker.</p>
+    <p>Examples of unordered list: </p>
+        <ul class="a1">
+            <li>apple</li>
+            <li>banana</li>
+            <li>orange</li>
+        </ul>
+        <ul class="b1">
+            <li>apple</li>
+            <li>banana</li>
+            <li>orange</li>
+        </ul>
+    
+    <p>Examples of ordered lists: </p>
+        <ol class="d1">
+            <li>lion</li>
+            <li>tiger</li>
+            <li>deer</li>
+        </ol>
+        <ol class="e1">
+            <li>lion</li>
+            <li>tiger</li>
+            <li>deer</li>
+        </ol>
+        <hr>
+
+    <!--An image as the list item marker-->
+    <p>An image as the list item marker</p>
+        <ul class="img">
+            <li>apple</li>
+            <li>banana</li>
+            <li>orange</li>
+        </ul>
+        <hr>
+
+    <!--Position the list item markers-->
+    <p>The list-style-position property specifies the position of the list-item markers(bullet points)</p>
+    <h2>list-style-position: outside (default):</h2>
+    <ul class="position1">
+        <li>Coffee - A brewed drink prepared from roasted coffee beans, which are the seeds of berries from the Coffea plant</li>
+        <li>Tea - An aromatic beverage commonly prepared by pouring hot or boiling water over cured leaves of the Camellia sinensis, an evergreen shrub (bush) native to Asia</li>
+        <li>Coca Cola - A carbonated soft drink produced by The Coca-Cola Company. The drink's name refers to two of its original ingredients, which were kola nuts (a source of caffeine) and coca leaves</li>
+    </ul>
+    
+    <h2>list-style-position: inside:</h2>
+    <ul class="position2">
+        <li>Coffee - A brewed drink prepared from roasted coffee beans, which are the seeds of berries from the Coffea plant</li>
+        <li>Tea - An aromatic beverage commonly prepared by pouring hot or boiling water over cured leaves of the Camellia sinensis, an evergreen shrub (bush) native to Asia</li>
+        <li>Coca Cola - A carbonated soft drink produced by The Coca-Cola Company. The drink's name refers to two of its original ingredients, which were kola nuts (a source of caffeine) and coca leaves</li>
+    </ul>
+    <hr>
+
+    <!--Remove default settings-->
+    <p>The list-style-type: none property can also be used to remove the markers/bullets. Note that the list also has default margin and padding. to remove this, add margin:0 and padding:0 to ul or ol </p>
+    <p>Default list:</p>
+        <ul>
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Coca Cola</li>
+        </ul>
+    <p>Remove bullets, margin and padding from list:</p>
+        <ul class="demo">
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Coca Cola</li>
+        </ul>
+        <hr>
+    <!--List shorthand property-->
+    <h2>Shorthand property</h2>
+    <p>The list-style property is a shorthand property. It is used to set all the list properties in one declaration:</p>
+            <ul class="srthand">
+                <li>Coffee</li>
+                <li>Tea</li>
+                <li>Coca Cola</li>
+            </ul>
+            <hr>
+    
+    <!--Styling list with colors-->
+    <h2>Styling Lists With Colors</h2>
+            <ol class="clr1">
+                <li>Coffee</li>
+                <li>Tea</li>
+                <li>Coca Cola</li>
+            </ol>
+            <ul class="clr2">
+                <li>Coffee</li>
+                <li>Tea</li>
+                <li>Coca Cola</li>
+            </ul>
+            <hr>
+    <!--Example: list with a red left border-->
+    <p>Example 1: list with a red left border</p>
+    <h2>List with a red left border</h2>
+    <ul class="exp1">
+    <li>Coffee</li>
+    <li>Tea</li>
+    <li>Coca Cola</li>
+    </ul>
+
+    <!--Example 2: A borderd list-->
+    <p>Example 2: A borderd list</p>
+    <ul class="exp2">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Coca Cola</li>
+    </ul>
+    <hr>
+    
+    <!--example 3: all list style-->
+    <h2>All List Style Types</h2>
+        <ul class="a">
+        <li>Circle type</li>
+        <li>Tea</li>
+        <li>Coca Cola</li>
+        </ul>
+
+        <ul class="b">
+        <li>Disc type</li>
+        <li>Tea</li>
+        <li>Coca Cola</li>
+        </ul>
+
+        <ul class="c">
+        <li>Square type</li>
+        <li>Tea</li>
+        <li>Coca Cola</li>
+        </ul>
+
+        <ol class="d">
+        <li>Armenian type</li>
+        <li>Tea</li>
+        <li>Coca Cola</li>
+        </ol>
+
+        <ol class="e">
+        <li>Cjk-ideographic type</li>
+        <li>Tea</li>
+        <li>Coca Cola</li>
+        </ol>
+
+        <ol class="f">
+        <li>Decimal type</li>
+        <li>Tea</li>
+        <li>Coca Cola</li>
+        </ol>
+
+        <ol class="g">
+        <li>Decimal-leading-zero type</li>
+        <li>Tea</li>
+        <li>Coca Cola</li>
+        </ol>
+
+        <ol class="h">
+        <li>Georgian type</li>
+        <li>Tea</li>
+        <li>Coca Cola</li>
+        </ol>
+
+        <ol class="i">
+        <li>Hebrew type</li>
+        <li>Tea</li>
+        <li>Coca Cola</li>
+        </ol>
+
+        <ol class="j">
+        <li>Hiragana type</li>
+        <li>Tea</li>
+        <li>Coca Cola</li>
+        </ol>
+
+        <ol class="k">
+        <li>Hiragana-iroha type</li>
+        <li>Tea</li>
+        <li>Coca Cola</li>
+        </ol>
+
+        <ol class="l">
+        <li>Katakana type</li>
+        <li>Tea</li>
+        <li>Coca Cola</li>
+        </ol>
+
+        <ol class="m">
+        <li>Katakana-iroha type</li>
+        <li>Tea</li>
+        <li>Coca Cola</li>
+        </ol>
+
+        <ol class="n">
+        <li>Lower-alpha type</li>
+        <li>Tea</li>
+        <li>Coca Cola</li>
+        </ol>
+
+        <ol class="o">
+        <li>Lower-greek type</li>
+        <li>Tea</li>
+        <li>Coca Cola</li>
+        </ol>
+
+        <ol class="p">
+        <li>Lower-latin type</li>
+        <li>Tea</li>
+        <li>Coca Cola</li>
+        </ol>
+
+        <ol class="q">
+        <li>Lower-roman type</li>
+        <li>Tea</li>
+        <li>Coca Cola</li>
+        </ol>
+
+        <ol class="r">
+        <li>Upper-alpha type</li>
+        <li>Tea</li>
+        <li>Coca Cola</li>
+        </ol>
+
+        <ol class="s">
+        <li>Upper-latin type</li>
+        <li>Tea</li>
+        <li>Coca Cola</li>
+        </ol>
+
+        <ol class="t">
+        <li>Upper-roman type</li>
+        <li>Tea</li>
+        <li>Coca Cola</li>
+        </ol>
+
+        <ol class="u">
+        <li>None type</li>
+        <li>Tea</li>
+        <li>Coca Cola</li>
+        </ol>
+
+        <ol class="v">
+        <li>inherit type</li>
+        <li>Tea</li>
+        <li>Coca Cola</li>
+        </ol>
+</body>
+</html>

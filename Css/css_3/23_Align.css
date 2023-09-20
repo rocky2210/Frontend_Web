@@ -1,0 +1,45 @@
+/*
+    Css align
+*/
+
+/*center aligm elements*/
+.margin{
+    margin: auto;
+    width: 60%;
+    border: 3px solid greenyellow;
+}
+/*center align text*/
+.text{
+    text-align: center;
+    border: 3px solid salmon;
+}
+.image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*right align with the position property*/
+.right{
+    position: absolute;
+    right: 0px;
+    width: 300px;
+    border: 3px solid blueviolet;
+    padding: 10px;
+}
+/*center vertically with padding*/
+.padding{
+    padding: 70px 0;
+    border: 3px solid green;
+}
+/*center with line-height*/
+.line{
+    line-height: 200px;
+    height: 200px;
+    border: 3px solid green;
+    text-align: center;
+}
+.line p{ /* If the text has multiple lines, add the following: */
+    line-height: 1.5;
+    display: inline-block;
+    vertical-align: middle;
+}

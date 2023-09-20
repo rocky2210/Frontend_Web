@@ -1,0 +1,65 @@
+/*Default style sheet*/
+/* CSS styles for the dark background */
+body {
+  background-color: #222;
+  color: #fff;
+  font-family: monospace, Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+hr {
+  border-color: #ffa500;
+}
+/* CSS styles for the content */
+h1 {
+  text-align: center;
+}
+p {
+  line-height: 1.5;
+}
+/* Custom colors for classes */
+.c1 {
+  color: #69c9d0;
+}
+.c2 {
+  color: #ee1d52;
+}
+.c3 {
+  color: #ffc300;
+}
+.c4 {
+  color: #8a3ab9;
+}
+.c5 {
+  color: #0077b5;
+}
+.c6 {
+  color: #00c957;
+}
+.c7 {
+  color: #ff00ff;
+}
+.c8 {
+  color: #adff2f; /* Green-yellow */
+}
+.c9 {
+  color: #3cb371;
+}
+.c10 {
+  color: #da70d6;
+}
+.c11 {
+  color: #008080;
+}
+.c12 {
+  color: #f08080;
+}
+.c13 {
+  color: #f9dbbd;
+}
+.c14 {
+  color: #9c6644;
+}
+.c15 {
+  color: #c8b6ff;
+}

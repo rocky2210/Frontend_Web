@@ -1,0 +1,14 @@
+/*
+    Google fonts and styling
+*/
+h1.a{
+    font-family: "Audiowide", sans-serif;
+    font-size: 30px;
+    text-shadow: 3px 3px 3px #ababab;
+}
+h1.b{
+    font-family: "sofia" , sans-serif;
+}
+h1.c{
+    font-family: "Trirong", serif;
+}

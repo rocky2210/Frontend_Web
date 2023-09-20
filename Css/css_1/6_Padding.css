@@ -1,0 +1,43 @@
+/*
+    Css Padding
+*/
+
+.allside{
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+    border: 1px solid red;
+}
+
+/* Padding shorthand property*/
+.padshrt{
+    padding: 25px 50px 75px 100px;
+    border: 1px solid red;
+}
+.pad3{
+    padding: 25px 50px 75px;
+    border: 1px solid red;
+}
+.pad2{
+    padding: 25px 50px;
+    border: 1px solid red;
+}
+.pad1{
+    padding: 25px;
+    border: 1px solid red;
+}
+
+/*Css width property*/
+.padwid{
+    width: 300px;
+    padding: 25px;
+    border: 1px solid red;
+}
+
+/*Css box-sizing property*/
+.bxsiz{
+    width: 300px;
+    padding: 25px;
+    border: 1px solid red;
+}

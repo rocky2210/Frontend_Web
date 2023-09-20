@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Learning HTML & CSS">
+    <meta name="keywords" content="HTML, CSS">
+    <meta name="author" content="Rocky">
+    <title>PSEUDO CLASSES</title>
+    <!--    default stylesheet   -->
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="25.2_Pseudo_Classes.css">
+</head>
+
+<body>
+    <h2>Pseudo-Classes Example</h2>
+
+    <hr>
+
+    <h3>:active</h3>
+    <a href="#" class="active-link">Click me</a>
+
+    <hr>
+
+    <h3>:checked</h3>
+    <input type="checkbox" class="checked-input" checked>
+    <input type="checkbox" class="disabled-input" disabled>
+
+    <hr>
+
+    <h3>:disabled</h3>
+    <input type="text" class="disabled-input" disabled>
+
+    <hr>
+
+    <h3>:empty</h3>
+    <p class="empty-paragraph"></p>
+    <div class="empty-paragraph">Some text</div>
+
+    <hr>
+
+    <h3>:enabled</h3>
+    <input type="text" class="enabled-input">
+    <input type="text" class="disabled-input" disabled>
+
+    <hr>
+
+    <h3>:first-child</h3>
+    <p class="first-child-paragraph">First child</p>
+    <p class="first-child-paragraph">First child</p>
+
+    <hr>
+
+    <h3>:first-of-type</h3>
+    <p class="first-of-type-paragraph">First of type</p>
+    <p class="first-of-type-paragraph">Second of type</p>
+
+    <hr>
+
+    <h3>:focus</h3>
+    <input type="text" class="focused-input">
+
+    <hr>
+
+    <h3>:hover</h3>
+    <a href="#" class="hovered-link">Hover over me</a>
+
+    <hr>
+
+    <h3>:in-range</h3>
+    <input type="number" min="0" max="10" class="in-range-input">
+    <input type="number" min="0" max="10" class="invalid-input">
+
+    <hr>
+
+    <h3>:lang</h3>
+    <p class="italian-paragraph" lang="en">English text</p>
+    <p class="italian-paragraph" lang="it">Italiano testo</p>
+
+    <hr>
+
+    <h3>:last-child</h3>
+    <p class="last-child-paragraph">Last child</p>
+    <p class="last-child-paragraph">Last child</p>
+
+    <hr>
+
+    <h3>:last-of-type</h3>
+    <p class="last-of-type-paragraph">Last of type</p>
+    <p class="last-of-type-paragraph">Last of type</p>
+
+    <hr>
+
+    <h3>:link</h3>
+    <a href="#" class="unvisited-link">Unvisited link</a>
+    <div>Not a link</div>
+
+    <hr>
+
+    <h3>:not</h3>
+    <p class="not-paragraph">Not a paragraph</p>
+    <div>Not a paragraph</div>
+
+    <hr>
+
+    <h3>:nth-child</h3>
+    <p class="second-child-paragraph">First child</p>
+    <p class="second-child-paragraph">Second child</p>
+
+    <hr>
+
+    <h3>:nth-last-child</h3>
+    <p class="second-last-child-paragraph">First child</p>
+    <p class="second-last-child-paragraph">Second last child</p>
+    <p class="second-last-child-paragraph">Third last child</p>
+
+    <hr>
+
+    <h3>:nth-last-of-type</h3>
+    <p class="second-last-of-type-paragraph">First of type</p>
+    <p class="second-last-of-type-paragraph">Second last of type</p>
+    <p class="second-last-of-type-paragraph">Third last of type</p>
+
+    <hr>
+
+    <h3>:nth-of-type</h3>
+    <p class="second-of-type-paragraph">First of type</p>
+    <p class="second-of-type-paragraph">Second of type</p>
+    <p class="second-of-type-paragraph">Third of type</p>
+
+    <hr>
+
+    <h3>:only-of-type</h3>
+    <p class="only-of-type-paragraph">Only of type</p>
+
+    <hr>
+
+    <h3>:only-child</h3>
+    <p class="only-child-paragraph">Only child</p>
+
+    <hr>
+
+    <h3>:optional</h3>
+    <input type="text" class="optional-input">
+    <input type="text" class="required-input">
+
+    <hr>
+
+    <h3>:out-of-range</h3>
+    <input type="number" min="0" max="10" class="out-of-range-input">
+    <input type="number" min="0" max="10" class="in-range-input">
+
+    <hr>
+
+    <h3>:read-only</h3>
+    <input type="text" class="read-only-input" readonly>
+
+    <hr>
+
+    <h3>:read-write</h3>
+    <input type="text" class="read-write-input">
+    <input type="text" class="read-only-input" readonly>
+
+    <hr>
+
+    <h3>:required</h3>
+    <input type="text" class="required-input" required>
+    <input type="text" class="optional-input">
+
+    <hr>
+
+    <h3>:root</h3>
+    <div id="root-element">Root element</div>
+
+    <hr>
+
+    <h3>:target</h3>
+    <div id="news">Target element</div>
+
+    <hr>
+
+    <h3>:valid</h3>
+    <input type="text" pattern="[A-Za-z]+" class="valid-input">
+
+    <hr>
+
+    <h3>:visited</h3>
+    <a href="#" class="visited-link">Visited link</a>
+</body>
+
+</html>

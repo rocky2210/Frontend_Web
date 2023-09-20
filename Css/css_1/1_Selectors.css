@@ -1,0 +1,39 @@
+/*
+    The Css element selector
+*/
+
+p{
+    text-align: center;
+    color: red;
+}
+
+/*The css id selector*/
+#selector{
+    text-align: left;
+    color: blue;
+}
+
+/*The css class selector*/
+.cls{
+    text-align: center;
+    color:blueviolet;
+}
+/*Specific element with class*/
+p.center{
+    text-align: left;
+}
+/*Multiple class*/
+p.big{
+    font-size: 300%;
+}
+/*The css universal selector*/
+*{
+    text-align: center;
+    color: gold;
+}
+
+/*The css grouping selector*/
+h4,h5{
+    text-align: right;
+    color: cadetblue;
+}

@@ -1,0 +1,120 @@
+/*
+    Css tables alignment
+*/
+
+/*
+    Horizontal alignment
+*/
+#th1,
+#th1 th, 
+#th1 td {
+    border: 1px solid;
+    border-collapse: collapse;
+}
+#th1{
+    width: 100%;
+}
+#th1 td{
+    text-align: center;/*left,center,right*/
+}
+
+/*
+    Vertical alginment
+*/
+#th2,
+#th2 th, 
+#th2 td {
+    border: 1px solid;
+    border-collapse: collapse;
+}
+#th2{
+    width: 100%;
+}
+#th2 td{
+    height: 50px;
+    vertical-align:bottom;/*bottom,top,middle*/
+}
+
+/*
+    Table padding
+*/
+#th3,
+#th3 td,
+#th3 th{
+    border: 1px solid #ddd;
+    text-align: left;
+}
+#th3{
+    border-collapse: collapse;
+    width: 70%;
+}
+#th3 th,
+#th3 td{
+    padding: 15px;
+}
+
+/*
+    Horizontal dividers
+*/
+#th4{
+    border-collapse: collapse;
+    width: 100%;
+}
+#th4 th,
+#th4 td{
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+/*
+    Hoverable table
+*/
+#th5{
+    border-collapse: collapse;
+    width: 100%;
+}
+#th5 th,
+#th5 td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid;
+}
+#th5 tr:hover{/* hover is selector*/
+    background-color: coral;
+}
+
+/*striped tables*/
+#th6{
+    border-collapse: collapse;
+    width: 100%;
+}
+#th6 th,
+#th6 td{
+    text-align: left;
+    padding: 8px;
+}
+#th6 tr:nth-child(odd){ /*odd and even*/
+    background-color: grey;
+}
+
+/*
+    Colored table header
+*/
+#th7{
+    border-collapse: collapse;
+    width: 100%;
+}
+#th7 th,
+#th7 td{
+    text-align: left;
+    padding: 8px;
+}
+#th7 tr:nth-child(odd){ /*odd and even*/
+    background-color: grey;
+}
+#th7 th{
+    background-color: #04aa6d;
+    color: white;
+}
+

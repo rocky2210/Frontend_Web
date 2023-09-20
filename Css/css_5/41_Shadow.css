@@ -1,0 +1,54 @@
+.shdw{
+    text-shadow: 2px 3px;
+}
+
+.shdwclr{
+    text-shadow: 2px 2px red;
+}
+
+.shdwblr{
+    text-shadow: 2px 2px 5px red;
+}
+
+/* multiple shadows */
+.shdwmul{
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+}
+
+/* border around text */
+.shdwbor{
+    color: coral;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+/* box shadow */
+
+.boxshdw{
+    width: 300px;
+    height: 100px;
+    padding: 15px;
+    background-color: chocolate;
+    box-shadow: 10px 10px lightblue;
+}
+
+.boxshdwblr{
+    width: 300px;
+    height: 100px;
+    padding: 15px;
+    background-color: chocolate;
+    box-shadow: 10px 10px 5px lightblue;
+}
+.boxshdwspread{
+    width: 300px;
+    height: 100px;
+    padding: 15px;
+    background-color: chocolate;
+    box-shadow: 10px 10px 5px 12px lightblue;
+}
+.boxshdwinset{
+    width: 300px;
+    height: 100px;
+    padding: 15px;
+    background-color: chocolate;
+    box-shadow: 10px 10px 5px lightblue inset;
+}

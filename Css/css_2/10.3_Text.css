@@ -1,0 +1,24 @@
+/*
+    Css Text shadow property
+*/
+.txtsdw{
+    text-shadow: 2px 2px;
+}
+.txtsdwc{
+    text-shadow: 2px 2px red;
+}
+.txtsdwd{
+    text-shadow: 2px 2px 5px red;
+}
+
+.example1{
+    text-shadow: 0 0 3px #ff0000;
+}
+.example2{
+    text-shadow: 0 0 3px #ff0000, 0 0 5px #0000ff;
+}
+.example3{
+    text-shadow: 1px 1px 3px black , 0 0 25px blue, 0 0 5ps darkblue;
+}
+
+

@@ -1,0 +1,29 @@
+/*
+    CSS display property
+*/
+div{
+    display: block;
+    background-color: palevioletred;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+span{
+    display: inline;
+    background-color: palegreen;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+/*
+    Display none
+*/
+h1.hidden{
+    display: none;
+}
+/*
+    visibility hidden
+*/
+h2.visibility{
+    visibility: hidden;
+}

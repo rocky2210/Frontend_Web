@@ -1,0 +1,48 @@
+/*
+    Height, width and max-width
+*/
+
+/*css height and width property*/
+.heiwid{
+    height: 100px;
+    width: 50%;
+    background-color: blue;
+}
+
+/*Css max-width property*/
+.maxwid{
+    border: 1px solid red;
+    max-width: 500px;
+    height: 100px;
+}
+
+/*Set the height and width of elements*/
+.one{
+    height: auto;
+}
+.two{
+    height: 200px;
+    width: 200px;
+}
+/*Set the height and width in %*/
+.three{
+    height: auto;
+    width: auto;
+}
+.four{
+    height: 50%;
+    width: 50%;
+}
+
+/*Set the max-width and min-width of an element*/
+.maxminwid{
+    max-width: 400px;
+    min-width: 100px;
+    background-color: forestgreen;
+}
+/*Set the max-height and min-height of an element*/
+.minmaxhei{
+    max-height: 600px;
+    min-height: 400px;
+    background-color: thistle;
+}

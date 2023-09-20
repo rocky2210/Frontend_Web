@@ -1,0 +1,55 @@
+/*
+    Css text transformation property
+*/
+.uppercase{
+    text-transform: uppercase;
+}
+.lowercase{
+    text-transform: lowercase;
+}
+.capitalize{
+    text-transform: capitalize;
+}
+
+/*
+    Css text indent property
+*/
+.textind{
+    text-indent: 50px;
+}
+
+/*
+    Css letter spacing property
+*/
+.spac1{
+    letter-spacing: 5px;
+}
+.spac2{
+    letter-spacing: -4px;
+}
+
+/*
+    Css line height property
+*/
+.small{
+    line-height: 0.7;
+}
+.big{
+    line-height: 1.8;
+}
+/*
+    Css word spacing property
+*/
+.wspc1{
+    word-spacing: 10px;
+}
+.wspc2{
+    word-spacing: -6px;
+}
+
+/*
+    Css white spacing property
+*/
+.whitespc{
+    white-space: nowrap;
+}

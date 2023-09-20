@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Learning HTML & CSS">
+    <meta name="keywords" content="HTML, CSS">
+    <meta name="author" content="Rocky">
+    <title>OPACITY</title>
+    <!--    default stylesheet   -->
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="26_Opacity.css">
+</head>
+<body>
+
+    <h1>Css Opacity</h1>
+    <p>The opacity property specifies the opacity/transparency of an element. </p>
+
+    <hr>
+    <h1>Image Transparency</h1>
+    <p>Image with 50% opacity</p>
+    <img src="../img/img_forest.jpg" alt="Forest" width="170" height="100">
+    <hr>
+
+    <p>The opacity property is often used together with the :hover selector to change the opacity on mouse-over:</p>
+    <img src="../img/icecream1.jpg" alt="ice cream" width="170" height="100" class="hoveropacity">
+    <img src="../img/icecream2.jpg" alt="ice cream" width="170" height="100" class="hoveropacity">
+    <img src="../img/icecream3.jpg" alt="ice cream" width="170" height="100" class="hoveropacity">
+    <hr>
+
+    <h1>Transparent Box</h1>
+    <p>When using the opacity property to add transparency to the background of an element, all of its child elements become transparent as well. This can make the text inside a fully transparent element hard to read:</p>
+
+    <div class="first"><p>opacity 0.1</p></div>
+    <div class="second"><p>opacity 0.3</p></div>
+    <div class="third"><p>opacity 0.6</p></div>
+    <div><p>opacity 1 (default)</p></div>
+    <hr><br>
+    <div class="background">
+        <div class="transbox">
+            <p>This is some text that is placed in the transparent box.</p>
+        </div>
+    </div>
+
+</body>
+</html>

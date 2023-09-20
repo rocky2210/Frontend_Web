@@ -1,0 +1,42 @@
+/*
+    Image transparents
+*/
+img{
+    opacity: 0.5;
+}
+.hoveropacity:hover{
+    opacity: 1.0;
+}
+
+/*
+    Transparent box
+*/
+div{
+    background-color: #4caf50;
+}
+div.first{
+    opacity: 0.1;
+}
+div.second{
+    opacity: 0.3;
+}
+div.third{
+    opacity: 0.6;
+}
+
+/*Text inside the transparent box*/
+div.background{
+    background: url(../img/icecream1.jpg);
+    border: 2px solid black;
+}
+div.transbox{
+    margin: 40px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.6;
+}
+div.transbox{
+    margin: 5%;
+    font-weight:bold;
+    color: #000000;
+}

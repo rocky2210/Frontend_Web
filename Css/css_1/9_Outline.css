@@ -1,0 +1,52 @@
+/*
+    CSS outline style property
+*/
+
+.dot{
+    border-color: blueviolet;
+    border-style: solid;
+    outline-style: dotted;
+    outline-color: yellow;
+}
+.dash{
+    border-color: blueviolet;
+    border-style: solid;
+    outline-style: dashed;
+    outline-color: green;
+}
+.sol{
+    border-color: blueviolet;
+    border-style: solid;
+    outline-style: solid;
+    outline-color: blue;
+}
+.dou{
+    border-color: blueviolet;
+    border-style: solid;
+    outline-style: double;
+    outline-color: red;
+}
+.gro{
+    border-color: blueviolet;
+    border-style: solid;
+    outline-style: groove;
+    outline-color: aqua;
+}
+.rid{
+    border-color: blueviolet;
+    border-style: solid;
+    outline-style: ridge;
+    outline-color: crimson;
+}
+.ins{
+    border-color: blueviolet;
+    border-style: solid;
+    outline-style: inset;
+    outline-color: darkcyan;
+}
+.out{
+    border-color: blueviolet;
+    border-style: solid;
+    outline-style: outset;
+    outline-color: gold;
+}

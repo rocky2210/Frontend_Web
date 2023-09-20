@@ -1,0 +1,18 @@
+/*
+    Border radius property
+*/
+p.normal{
+    border: 2px solid #ff3547;
+}
+p.round1{
+    border: 2px solid #ff3547;
+    border-radius: 5px;
+}
+p.round2{
+    border: 2px solid #ff3547;
+    border-radius: 8px;
+}
+p.round3{
+    border: 2px solid #ff3547;
+    border-radius: 12px;
+}

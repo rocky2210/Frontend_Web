@@ -1,0 +1,121 @@
+/*
+    Css Links
+*/
+.a1{
+    list-style-type: circle;
+}
+.b1{
+    list-style-type: square;
+}
+.d1{
+    list-style-type: lower-roman;
+}
+.e1{
+    list-style-type: upper-alpha;
+}
+
+/*
+    An image as the list item marker
+*/
+.img{
+    list-style-image: url("../img/sqred.gif");
+}
+
+/*
+    The list-style-position property
+*/
+.position1{
+    list-style-position: outside;
+}
+.position2{
+    list-style-position: inside;
+}
+
+/*
+    Remove default setting
+*/
+.demo{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+    Shorthand property syntax(type, position image)
+*/
+.srthand{
+    list-style: square inside url("../img/sqred.gif");
+}
+
+/*
+    Styling with colors
+*/
+.clr1{
+    background-color: #ff9999;
+    padding: 20px;
+}
+.clr2{
+    background-color: #3399ff;
+    padding: 20px;
+}
+.clr1 li{
+    background-color: #ffe4e4;
+    color: darkred;
+    padding: 5px;
+    margin-left: 35px;
+}
+.clr2 li{
+    background-color: #cce5ff;
+    color: darkblue;
+    padding: 3px;
+    margin: 5px;
+}
+
+/*
+    Example: list with a red left border
+*/
+.exp1{
+    border-left: 5px solid red;
+    background-color: #f1f1f1;
+    list-style-type: none;
+    padding: 10px 20px;
+    color: black;
+}
+/* 
+    Example: A bordered list
+*/
+.exp2{
+    list-style-type: none;
+    padding: 0px;
+    border: 1px solid #ddd;
+}
+.exp2 li{
+    padding: 8px;
+    border: 1px solid #ddd;
+}
+
+/*
+    All list style types
+*/
+    ul.a{list-style-type: circle;}
+    ul.b {list-style-type: disc;}
+    ul.c {list-style-type: square;}
+    ol.d {list-style-type: armenian;}
+    ol.e {list-style-type: cjk-ideographic;}
+    ol.f {list-style-type: decimal;}
+    ol.g {list-style-type: decimal-leading-zero;}
+    ol.h {list-style-type: georgian;}
+    ol.i {list-style-type: hebrew;}
+    ol.j {list-style-type: hiragana;}
+    ol.k {list-style-type: hiragana-iroha;}
+    ol.l {list-style-type: katakana;}
+    ol.m {list-style-type: katakana-iroha;}
+    ol.n {list-style-type: lower-alpha;}
+    ol.o {list-style-type: lower-greek;}
+    ol.p {list-style-type: lower-latin;}
+    ol.q {list-style-type: lower-roman;}
+    ol.r {list-style-type: upper-alpha;}
+    ol.s {list-style-type: upper-latin;}
+    ol.t {list-style-type: upper-roman;}
+    ol.u {list-style-type: none;}
+    ol.v {list-style-type: inherit;}

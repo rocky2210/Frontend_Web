@@ -1,0 +1,70 @@
+/*
+    Css color and background property
+*/
+.clr{
+    color: pink;
+    background-color: blue;
+}
+
+/*
+    Css text-align property
+*/
+.textali1{
+    color: chartreuse;
+    text-align: center;
+}
+.textali2{
+    color: coral;
+    text-align: left;
+}
+.textali3{
+    color: cornflowerblue;
+    text-align: right;
+}
+.textali4{
+    color: crimson;
+    text-align: justify;
+}
+
+/* 
+    css text-align last property
+*/
+.a{
+    text-align-last: right;
+    color: crimson;
+}
+.b{
+    text-align-last: center;
+    color: coral;
+}
+.c{
+    text-align-last: justify;
+    color: coral;
+}
+
+/*
+    Css Text direction property
+*/
+.txtdir{
+    direction: rtl;
+    unicode-bidi: bidi-override;
+}
+/*  
+    Css Vertical align property    
+*/
+.l{
+    vertical-align: baseline;
+}
+.m{
+    vertical-align: text-top;
+}
+.n{
+    vertical-align: text-bottom;
+}
+.o{
+    vertical-align: sub;
+}
+.p{
+    vertical-align: super;
+}
+

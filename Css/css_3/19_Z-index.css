@@ -1,0 +1,64 @@
+/*
+    Z-index
+*/
+img{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}
+.container{
+    position: relative;
+}
+.black-box{
+    position: relative;
+    z-index: 1;
+    border: 1px solid;
+    height: 100px;
+    margin: 30px;
+}
+.gold-box{
+    position: absolute;
+    z-index: 3;
+    background-color: goldenrod;
+    height: 60px;
+    width: 70%;
+    left: 50px;
+    top: 50px;
+}
+.green-box{
+    position: absolute;
+    z-index: 2;
+    background-color: green;
+    height: 100px;
+    top: -15px;
+    left: 270px;
+    width: 35%;
+}
+
+/*
+    example 2 without using z-index
+*/
+.black-box1{
+    position: relative;
+    border: 2px solid;
+    height: 100px;
+    margin: 30px;
+}
+.gray-box1 {
+    position: absolute;
+    background: lightgray;
+    height: 60px;  
+    width: 70%;
+    left: 50px;
+    top: 50px;
+}
+
+.green-box1 {
+    position: absolute;
+    background: lightgreen;
+    width: 35%;
+    left: 270px;
+    top: -15px;
+    height: 100px;
+}

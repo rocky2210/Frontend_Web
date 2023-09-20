@@ -1,0 +1,30 @@
+body{
+    background: url(../img/paper.gif);
+}
+.ex1 { 
+    background-color: lightgreen;
+    border: 2px solid black;
+    padding: 15px;
+}
+.ex2 { 
+    background-color: transparent;
+    border: 2px solid black;
+    padding: 15px;
+} 
+
+/* current color */
+.current{
+    color: blue;
+    border: 10px solid currentcolor;
+    padding: 15px;
+}
+
+
+/* inherit keyword */
+div{
+    border :2px solid red;
+    color: black;
+}
+span{
+    border: inherit;
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Learning HTML & CSS">
+    <meta name="keywords" content="HTML, CSS">
+    <meta name="author" content="Rocky">
+    <title>OVERFLOW</title>
+    <!--    default stylesheet   -->
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="20_Overflow.css">
+</head>
+<body>
+    <!--CSS overflow-->
+    <h1>Css layout overflow</h1>
+    <p>The overflow property specifies whether to clip the content or to add scrollbars
+        when the content of an element is too big to fit in the specified area</p>
+        <p>The overflow property has the following values:<br>
+        <ul><li>
+        visible - Default. The overflow is not clipped. The content renders outside the element's box</li>
+        <li>hidden - The overflow is clipped, and the rest of the content will be invisible</li>
+        <li>scroll - The overflow is clipped, and a scrollbar is added to see the rest of the content</li>
+        <li>auto - Similar to scroll, but it adds scrollbars only when necessary</li></ul></p>
+    <p><b>Note:</b> The overflow property only works for block elements with a specified heighht</p>
+    <hr>
+    <hr>
+
+    <!--Overflow visible-->
+    <h2>Overflow : visible</h2>
+    <p>By Default, the overflow is visible, meaning that it is not clipped and it renders outside the element's box </p>
+    <div class="visible">You can use the overflow property when you want to have better control of the layout. The overflow property specifies what happens if content overflows an element's box.</div>
+    <br><br><br><br><br><hr>
+
+    <!--overflow hidden-->
+    <h2>Overflow : hidden</h2>
+    <p>With the hidden value, the overflow is clipped, and the rest of the content is hidden</p>
+    <div class="hidden">You can use the overflow property when you want to have better control of the layout. The overflow property specifies what happens if content overflows an element's box.</div>        
+    <hr>
+
+    <!--overflow scroll-->
+    <h2>Overflow scroll</h2>
+    <p>the overflow is clipped and a scrollbar is added to scrool inside the box.  Note that this will add a scrollbar both horizontally and vertically (even if you do not need it )</p>
+    <div class="scroll">You can use the overflow property when you want to have better control of the layout. The overflow property specifies what happens if content overflows an element's box.</div>        
+    <hr>
+
+    <!--overflow auto-->
+    <h2>Overflow auto</h2>
+    <p>The auto value is similar to scroll, but it adds scrollbars only when necessary</p>
+    <div class="auto">You can use the overflow property when you want to have better control of the layout. The overflow property specifies what happens if content overflows an element's box.</div>        
+    <hr>
+
+    <!--overflow-x and overflow-y -->
+    <h2>Overflow-x and overflow-y </h2>
+    <p>The Overflow-x and overflow-y properties specifies whether to change the overflow of content just horizontally or vertically</p>
+    <p><ul><li>Overflow-x specifies what to do with the left/right edges of the content</li><li>overflow-y specifies what to do with top/bottom edges of the content</li></ul></p>
+    <div class="overflow">You can use the overflow property when you want to have better control of the layout. The overflow property specifies what happens if content overflows an element's box.</div>        
+    <hr>
+
+    <!--overflow -wrap-->
+    <h2>Overflow-wrap: normal</h2>
+    <p>overflow-wrap property specifies whether or not the browser can break lines with long words, if they overflow the container</p>
+    <div class="a">This div contains a very long word: thisisaveryveryveryveryveryverylongword. The long word will not break and wrap to the next line.</div>
+    <hr>
+
+    <h2>overflow-wrap: break-word:</h2>
+    <div class="b">This div contains a very long word: thisisaveryveryveryveryveryverylongword. The long word will break and wrap to the next line.</div>
+    <hr>
+
+    <h2>overflow-wrap: anywhere:</h2>
+    <div class="c">This div contains a very long word: thisisaveryveryveryveryveryverylongword. The long word will break and wrap to the next line.</div>
+    <hr>
+</body>
+</html>

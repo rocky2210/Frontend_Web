@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Learning HTML & CSS">
+    <meta name="keywords" content="HTML, CSS">
+    <meta name="author" content="Rocky">
+    <title>Specificity</title>
+    <!--    default stylesheet   -->
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="34_Specificity.css">
+</head>
+<body>
+    
+    <p id="demo" class="test">Hello World!</p>
+    <p id="demo" class="test" style="color: pink;">Hello World!</p>
+
+    <!-- special hierarchy -->
+    <!-- inline styles >>>> id >>>> class,pseduo,attribute selectors >>>> elements,pseudo elements -->
+
+    <!-- There is one exception to this rule: if you use the !important rule, it will even override inline styles! -->
+
+
+</body>
+</html>

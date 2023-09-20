@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Learning HTML & CSS">
+    <meta name="keywords" content="HTML, CSS">
+    <meta name="author" content="Rocky">
+    <title>COMBINATORS</title>
+    <!--    default stylesheet   -->
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="24_Combinators.css">
+</head>
+<body>
+    <h1>Css combinators</h1>
+    <p>A combinator is something that explains the relationship between the selectors</p>
+    <pre>
+        A CSS selector can contain more than one simple selector. Between the simple selectors, we can include a combinator.
+
+        There are four different combinators in CSS:
+
+        1.descendant selector (space)
+        2.child selector (>)
+        3.adjacent sibling selector (+)
+        4.general sibling selector (~)
+    </pre>
+    <hr>
+
+    <div>
+        <p>This is a paragraph inside a div.(descendant selector)</p>
+        <span>This is a span inside a div.(child selector)</span>
+    </div>
+    
+    <h2>Heading 2</h2>
+    <p>This is a paragraph after the h2 element.(adjacent sibling selector)</p>
+    <p>This is another paragraph after the h2 element(general sibling selector).</p>
+</body>
+</html>
