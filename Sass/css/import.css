@@ -1,0 +1,15 @@
+html,
+body,
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 18px;
+  color: #EE82EE;
+}
+
+/*# sourceMappingURL=import.css.map */

@@ -1,0 +1,31 @@
+// Variables
+
+$myFont: Helvetica, sans-serif; //Global varibale
+$myColor: red;
+$myFontSize: 18px;
+$myWidth: 680px;
+$myBG: green;
+$myColor2 : yellow; 
+
+body{
+    font-family: $myFont;
+    font-size: $myFontSize;
+    color: $myColor;
+}
+
+#container{
+    $myBlue: blue; // Local variable
+    $myBG: black;
+    width: $myWidth;
+    border: 1px solid $myBlue;
+    background-color: $myBG; // variable shadowing (Uses the local value (black) within this scope)
+}
+
+// Global
+h2{
+    $myColor2 : green !global;
+    color: $myColor2;
+}
+
+
+
