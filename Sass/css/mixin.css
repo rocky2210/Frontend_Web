@@ -1,0 +1,29 @@
+.danger {
+  color: red;
+  font-size: 25px;
+  font-weight: bold;
+  border: 1px solid black;
+  background-color: black;
+}
+
+.arg1 {
+  border: 2px solid green;
+}
+
+.arg2 {
+  border: 2px solid blue;
+}
+
+.arg1 {
+  -webkit-transform: rotate(-20deg);
+  -ms-transform: rotate(-20deg);
+  transform: rotate(-20deg);
+}
+
+.arg2 {
+  -webkit-transform: rotate(20deg);
+  -ms-transform: rotate(20deg);
+  transform: rotate(20deg);
+}
+
+/*# sourceMappingURL=mixin.css.map */

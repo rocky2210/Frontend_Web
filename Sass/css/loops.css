@@ -1,0 +1,56 @@
+.item-1 {
+  width: 100px;
+  height: 50px;
+  margin-bottom: 10px;
+  background-color: red;
+}
+
+.item-2 {
+  width: 200px;
+  height: 50px;
+  margin-bottom: 10px;
+  background-color: blue;
+}
+
+.item-3 {
+  width: 300px;
+  height: 50px;
+  margin-bottom: 10px;
+  background-color: green;
+}
+
+.item-4 {
+  width: 400px;
+  height: 50px;
+  margin-bottom: 10px;
+  background-color: yellow;
+}
+
+.item-5 {
+  width: 500px;
+  height: 50px;
+  margin-bottom: 10px;
+  background-color: black;
+}
+
+.text-red {
+  color: red;
+}
+
+.text-blue {
+  color: blue;
+}
+
+.text-green {
+  color: green;
+}
+
+.text-yellow {
+  color: yellow;
+}
+
+.text-black {
+  color: black;
+}
+
+/*# sourceMappingURL=loops.css.map */
